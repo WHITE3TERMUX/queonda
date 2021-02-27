@@ -1,7 +1,8 @@
 #!/bin/bash
 #created:by WHITE TERMUX
+
 trap ctrl_c 2
-PASSWORD="white"
+PASSWORD="key"
 DATE=$(date)
 # COLORES
 negro="\e[1;30m"
@@ -13,7 +14,7 @@ purpura="\e[1;35m"
 amarillo="\e[1;33m"
 blanco="\e[1;37m"
 # CÓDIGO
-WHITETERMUX(){
+Scorpio28(){
 	sleep 0.5
 	clear
 echo -e "${azul}
@@ -47,6 +48,7 @@ echo -e "${azul}
  ░ ░  ░  ░▒ ░ ▒░  ░▒ ░ ▒░  ░ ▒ ▒░   ░▒ ░ ▒░
    ░     ░░   ░   ░░   ░ ░ ░ ░ ▒    ░░   ░ 
    ░  ░   ░        ░         ░ ░     ░  
+"${blanco}
 PS1="\[\033[38;5;46m\]\\$\[$(tput sgr0)\]\[\033[38;5;196m\]\u\[$(tput sgr0)\]\[\033[38;5;46m\]@\W@\[$(tput sgr0)\]"
 }
 ctrl_c(){
@@ -56,13 +58,13 @@ echo -e "${rojo}
 └═══════════════════┘
 "${blanco}
 sleep 1
-whitetermux
+Scorpio28
 }
 Login(){
 whitetermux
 echo -e -n "${verde}
 ┌═════════════════┐
-█ ${blanco}INGRESE USUARIO ${azul}█
+█ ${blanco}INGRESE USUARIO ${verde}█
 └═════════════════┘
 ┃
 └═>>> "${blanco}
@@ -76,7 +78,7 @@ echo -e "${verde}
 └══════════════════════════┘
 "${blanco}
 sleep 2
-whitetermux
+Scorpio28
 else
 echo -e "${rojo}
 ┌═══════════════════┐
